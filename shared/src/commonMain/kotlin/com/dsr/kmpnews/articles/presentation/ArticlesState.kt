@@ -1,4 +1,4 @@
-package com.petros.efthymiou.dailypulse.articles.presentation
+package com.dsr.kmpnews.articles.presentation
 
 import com.petros.efthymiou.dailypulse.articles.application.Article
 

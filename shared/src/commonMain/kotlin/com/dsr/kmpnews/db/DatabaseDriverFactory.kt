@@ -1,4 +1,4 @@
-package com.petros.efthymiou.dailypulse.db
+package com.dsr.kmpnews.db
 
 import app.cash.sqldelight.db.SqlDriver
 

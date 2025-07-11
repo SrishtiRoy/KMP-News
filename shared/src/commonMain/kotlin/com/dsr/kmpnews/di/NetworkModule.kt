@@ -1,4 +1,4 @@
-package com.petros.efthymiou.dailypulse.di
+package com.dsr.kmpnews.di
 
 import io.ktor.client.HttpClient
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation

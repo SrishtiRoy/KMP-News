@@ -2,7 +2,7 @@ package com.petros.efthymiou.dailypulse.articles.presentation
 
 import com.petros.efthymiou.dailypulse.BaseViewModel
 import com.petros.efthymiou.dailypulse.articles.application.ArticlesUseCase
-import com.petros.efthymiou.dailypulse.articles.presentation.ArticlesState
+import com.dsr.kmpnews.articles.presentation.ArticlesState
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch

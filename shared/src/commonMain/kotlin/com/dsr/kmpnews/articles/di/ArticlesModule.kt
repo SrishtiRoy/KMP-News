@@ -1,4 +1,4 @@
-package com.petros.efthymiou.dailypulse.articles.di
+package com.dsr.kmpnews.articles.di
 
 import com.petros.efthymiou.dailypulse.articles.data.ArticlesDataSource
 import com.petros.efthymiou.dailypulse.articles.data.ArticlesRepository
