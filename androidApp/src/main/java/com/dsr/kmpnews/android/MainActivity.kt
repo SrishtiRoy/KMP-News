@@ -8,7 +8,7 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.dsr.kmpnews.Greeting
+import com.petros.efthymiou.dailypulse.android.AppScaffold
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,8 +19,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.tertiary
                 ) {
-                    GreetingView(Greeting().greet())
-                }
+AppScaffold()                }
             }
         }
     }

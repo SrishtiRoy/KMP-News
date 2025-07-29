@@ -1,4 +1,4 @@
-package com.petros.efthymiou.dailypulse
+package com.dsr.kmpnews
 
 import platform.Foundation.NSLog
 import platform.UIKit.UIDevice

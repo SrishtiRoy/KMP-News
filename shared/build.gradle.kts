@@ -76,3 +76,10 @@ android {
         targetCompatibility = JavaVersion.VERSION_1_8
     }
 }
+sqldelight {
+    databases {
+        create(name = "DailyPulseDatabase") {
+            packageName.set("com.dsr.kmpnews.db")
+        }
+    }
+}

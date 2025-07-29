@@ -2,7 +2,6 @@ package com.dsr.kmpnews.db
 
 import app.cash.sqldelight.db.SqlDriver
 import app.cash.sqldelight.driver.native.NativeSqliteDriver
-import petros.efthymiou.dailypulse.db.DailyPulseDatabase
 
 actual class DatabaseDriverFactory() {
 

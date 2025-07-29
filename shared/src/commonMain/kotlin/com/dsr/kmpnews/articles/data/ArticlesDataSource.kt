@@ -1,11 +1,14 @@
-package com.petros.efthymiou.dailypulse.articles.data
+package com.dsr.kmpnews.data
 
-import petros.efthymiou.dailypulse.db.DailyPulseDatabase
+import com.dsr.kmpnews.db.DailyPulseDatabase
+
 
 class ArticlesDataSource(private val database: DailyPulseDatabase) {
 
     fun getAllArticles(): List<ArticleRaw> =
-        database.dailyPulseDatabaseQueries.selectAllArticles(::mapToArticleRaw).executeAsList()
+        database.dailyPulseDatabaseQueries.selectAllArticles { title, desc, date, imageUrl ->
+            ArticleRaw(title, desc ?: "", date, imageUrl ?: "")
+        }.executeAsList()
 
     fun insertArticles(articles: List<ArticleRaw>) {
         database.dailyPulseDatabaseQueries.transaction {
@@ -31,12 +34,13 @@ class ArticlesDataSource(private val database: DailyPulseDatabase) {
         title: String,
         desc: String?,
         date: String,
-        url: String?
+        imageUrl:String
     ): ArticleRaw =
         ArticleRaw(
             title,
             desc,
             date,
-            url
+            imageUrl
+
         )
 }

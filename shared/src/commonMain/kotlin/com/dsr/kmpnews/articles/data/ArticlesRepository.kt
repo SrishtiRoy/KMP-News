@@ -1,4 +1,4 @@
-package com.petros.efthymiou.dailypulse.articles.data
+package com.dsr.kmpnews.data
 
 class ArticlesRepository(
     private val dataSource: ArticlesDataSource,

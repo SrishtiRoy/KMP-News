@@ -1,6 +1,5 @@
 package com.petros.efthymiou.dailypulse.sources.data
-
-import petros.efthymiou.dailypulse.db.DailyPulseDatabase
+import com.dsr.kmpnews.db.DailyPulseDatabase
 
 class SourcesDataSource(private val db: DailyPulseDatabase) {
 

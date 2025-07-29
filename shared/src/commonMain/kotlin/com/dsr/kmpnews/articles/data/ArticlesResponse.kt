@@ -1,6 +1,5 @@
-package com.petros.efthymiou.dailypulse.articles.data
+package com.dsr.kmpnews.data
 
-import com.petros.efthymiou.dailypulse.articles.data.ArticleRaw
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 

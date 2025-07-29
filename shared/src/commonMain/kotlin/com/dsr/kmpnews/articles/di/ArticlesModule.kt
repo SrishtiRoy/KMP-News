@@ -1,10 +1,11 @@
 package com.dsr.kmpnews.articles.di
 
-import com.petros.efthymiou.dailypulse.articles.data.ArticlesDataSource
-import com.petros.efthymiou.dailypulse.articles.data.ArticlesRepository
-import com.petros.efthymiou.dailypulse.articles.data.ArticlesService
-import com.petros.efthymiou.dailypulse.articles.application.ArticlesUseCase
-import com.petros.efthymiou.dailypulse.articles.presentation.ArticlesViewModel
+
+import com.dsr.kmpnews.articles.application.ArticlesUseCase
+import com.dsr.kmpnews.articles.presentation.ArticlesViewModel
+import com.dsr.kmpnews.data.ArticlesDataSource
+import com.dsr.kmpnews.data.ArticlesRepository
+import com.dsr.kmpnews.data.ArticlesService
 import org.koin.dsl.module
 
 val articlesModule = module {

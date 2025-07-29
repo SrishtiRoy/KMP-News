@@ -1,6 +1,7 @@
 package com.petros.efthymiou.dailypulse.di
 
-import com.petros.efthymiou.dailypulse.articles.presentation.ArticlesViewModel
+import com.dsr.kmpnews.articles.presentation.ArticlesViewModel
+import com.dsr.kmpnews.di.databaseModule
 import com.petros.efthymiou.dailypulse.sources.presentation.SourcesViewModel
 import org.koin.core.component.KoinComponent
 import org.koin.core.component.inject

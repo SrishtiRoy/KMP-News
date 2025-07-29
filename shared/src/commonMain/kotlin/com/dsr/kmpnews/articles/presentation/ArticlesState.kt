@@ -1,6 +1,7 @@
 package com.dsr.kmpnews.articles.presentation
 
-import com.petros.efthymiou.dailypulse.articles.application.Article
+import com.dsr.kmpnews.articles.application.Article
+
 
 data class ArticlesState (
     val articles: List<Article> = listOf(),

@@ -1,4 +1,4 @@
-package com.petros.efthymiou.dailypulse.articles.data
+package com.dsr.kmpnews.data
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
@@ -13,4 +13,5 @@ data class ArticleRaw(
     val date: String,
     @SerialName("urlToImage")
     val imageUrl: String?
+
 )
