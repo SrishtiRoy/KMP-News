@@ -1,4 +1,4 @@
-package com.petros.efthymiou.dailypulse.di
+package com.dsr.kmpnews.di
 
 import com.dsr.kmpnews.articles.di.articlesModule
 import com.dsr.kmpnews.di.networkModule
