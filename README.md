@@ -12,6 +12,11 @@ A cross-platform mobile application built using **Kotlin Multiplatform Mobile (K
 
 ---
 
+##  Demo
+
+[![Demo Video](https://img.youtube.com/vi/BiXDrOXqbWQ/hqdefault.jpg)](https://youtu.be/BiXDrOXqbWQ "Demo Video")
+
+
 ## 🚀 Tech Stack
 
 | Layer | Technology |
